@@ -1,0 +1,31 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: https://squires-barbers.co.uk
+title: Squires Barbers of Easingwold
+email: info@squires-barbers.co.uk
+author: GaltresIT
+description: Squires Barbers of Easingwold. 1 Spring st Easingwold YO61 
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+plugins:
+  - jekyll-maps
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: Appointments
+    url: https://book.squires-barbers.co.uk/index.php
+    
+maps:
+  google:
+    api_key: AIzaSyB4Yg3i8_Hc7Wtizx_R3VnBZpxI5dJnL2I
